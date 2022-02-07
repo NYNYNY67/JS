@@ -1,9 +1,12 @@
 'use strct';
 
-// console.log('hello');
+{
+  const x = 100;
+  const sum = (a, b, c) => a + b + c;
+  console.log(sum(1,2,3));
+}
 
-// console.log("it's me!");
-// console.log('it\'s me!');
-// console.log('hel\nlo wor\tld')
 
-console.log('hello' + 'world');
+const sum = (a, b, c) => a + b + c;
+console.log(sum(1,2,3));
+
